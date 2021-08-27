@@ -1085,7 +1085,12 @@ public class arrayFns {
 		System.out.println(
 				"\tThe rerurn datatyoe is int.\n\tThe parameters are: array, object\n\tUsage: int occOfa = ob.occurence(charArray, 'a');");
 
-		System.out.println("\n6) sortAscending\n\tThis method arranges the intems in the array in ascending order.\n\tThe return datatype is same as the parameter's datatype.");
+		System.out.println(
+				"\n6) sortAscending\n\tThis method arranges the items in the array in ascending order.\n\tThe return datatype is same as the parameter's datatype.");
 		System.out.println("\tThe Parameters are: array\n\tUsage: int sortedAry[] = ob.sortAscending(intAry)");
+
+		System.out.println(
+				"\n7) sortDescending\n\tThis method arranges the items in the array in descending order.\n\tThe return datatype is same as the parameter's datatype.");
+		System.out.println("\tThe Parameters are: array\n\tUsage: int sortedAry[] = ob.sortDescending(intAry)");
 	}
 }
