@@ -1092,5 +1092,14 @@ public class arrayFns {
 		System.out.println(
 				"\n7) sortDescending\n\tThis method arranges the items in the array in descending order.\n\tThe return datatype is same as the parameter's datatype.");
 		System.out.println("\tThe Parameters are: array\n\tUsage: int sortedAry[] = ob.sortDescending(intAry)");
+
+		System.out.println("\n8) aryRev\n\tThis method rearranges the given array in reverse order.\n\tThe return datatype is same as parameter's datatype.\n\tParameter is: array.");
+		System.out.println("\tUsage: int[] revAray = ob.aryRev(intArray)");
+
+		System.out.println("\n9) lastIndexOf\n\tThis method finds the last index position of an item.\n\tThe retuen datatype is int. It returns -1 if the object is not found in the array.");
+		System.out.println("\tThe parameters are: array, object\n\tUsage: int lastPosOfa = ob.lastIndexOf(charArray, 'a');");
+
+		System.out.println("\n10) remDubli\n\tThis method removes the repeted or the dublicate items in the list.\n\tIt returns an array in which each item is unique.");
+		System.out.println("\tThe return datatype is same as parameter's datatype.\n\tThe parameter is: array\n\tUsage: char NoDubli[] = ob.remDubli(charArray);");
 	}
 }
