@@ -1083,7 +1083,7 @@ public class arrayFns {
 
 		System.out.println("\n5) occurence\n\tThis method returns how many times an object has appread in the array.");
 		System.out.println(
-				"\tThe rerurn datatyoe is int.\n\tThe parameters are: array, object\n\tUsage: int occOfa = ob.occurence(charArray, 'a');");
+				"\tThe rerurn datatype is int.\n\tThe parameters are: array, object\n\tUsage: int occOfa = ob.occurence(charArray, 'a');");
 
 		System.out.println(
 				"\n6) sortAscending\n\tThis method arranges the items in the array in ascending order.\n\tThe return datatype is same as the parameter's datatype.");
